@@ -1,0 +1,12 @@
+{%extends "layout.html"%}
+{%block content%}
+<script type="text/javascript" src={{cdn_js | safe}}
+integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+<div class="plot">
+    <h1>GOOGLE stock market plot</h1>
+    <p>This is a candlestick graph showing the GOOGLE stock market details from 1st December,2020 to 1st February,2021. </p>
+
+</div>
+{{script1 | safe}}
+{{div1 | safe}}
+{%endblock%}
